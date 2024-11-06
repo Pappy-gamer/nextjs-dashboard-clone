@@ -24,8 +24,6 @@ import clsx from 'clsx';
 
 export default function NavLinks() {
   const pathname = usePathname()
-  console.log(pathname)
-  console.log(Link.href)
   return (
     <>
       {links.map((link) => {
